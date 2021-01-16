@@ -1,0 +1,84 @@
+{
+  "_args": [
+    [
+      "git+https://github.com/mozilla-iot/gateway-addon-node.git#v0.12.0",
+      "/home/pi/mozilla-iot/gateway"
+    ]
+  ],
+  "_from": "git+https://github.com/mozilla-iot/gateway-addon-node.git#v0.12.0",
+  "_id": "gateway-addon@git+https://github.com/mozilla-iot/gateway-addon-node.git#51fece28a1faaa47945aeaf554d5d17543738c1b",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/gateway-addon",
+  "_phantomChildren": {
+    "nan": "2.14.1",
+    "node-pre-gyp": "0.11.0"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/mozilla-iot/gateway-addon-node.git#v0.12.0",
+    "rawSpec": "git+https://github.com/mozilla-iot/gateway-addon-node.git#v0.12.0",
+    "saveSpec": "git+https://github.com/mozilla-iot/gateway-addon-node.git#v0.12.0",
+    "fetchSpec": "https://github.com/mozilla-iot/gateway-addon-node.git",
+    "gitCommittish": "v0.12.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/mozilla-iot/gateway-addon-node.git#51fece28a1faaa47945aeaf554d5d17543738c1b",
+  "_spec": "git+https://github.com/mozilla-iot/gateway-addon-node.git#v0.12.0",
+  "_where": "/home/pi/mozilla-iot/gateway",
+  "author": {
+    "name": "Mozilla IoT"
+  },
+  "bugs": {
+    "url": "https://github.com/mozilla-iot/gateway-addon-node/issues"
+  },
+  "dependencies": {
+    "ajv": "^6.12.0",
+    "sqlite3": "^4.1.1",
+    "ws": "^7.2.3"
+  },
+  "description": "Bindings for Mozilla WebThings Gateway add-ons",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "lib/action.js",
+    "lib/adapter.js",
+    "lib/addon-manager-proxy.js",
+    "lib/api-handler.js",
+    "lib/constants.js",
+    "lib/database.js",
+    "lib/deferred.js",
+    "lib/device.js",
+    "lib/event.js",
+    "lib/ipc.js",
+    "lib/notifier.js",
+    "lib/outlet.js",
+    "lib/plugin-client.js",
+    "lib/property.js",
+    "lib/utils.js",
+    "schema"
+  ],
+  "homepage": "https://github.com/mozilla-iot/gateway-addon-node",
+  "keywords": [
+    "mozilla",
+    "webthings"
+  ],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "name": "gateway-addon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla-iot/gateway-addon-node.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "if [ ! -d schema/messages ]; then git submodule init; git submodule update; fi"
+  },
+  "version": "0.12.0"
+}
