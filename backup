@@ -1,12 +1,12 @@
 {
   "_args": [
     [
-      "git+https://github.com/harshadesai/gateway_addon.git",
+      "git+https://github.com/mozilla-iot/gateway-addon-node.git#v0.12.0",
       "/home/pi/mozilla-iot/gateway"
     ]
   ],
-  "_from": "git+https://github.com/harshadesai/gateway_addon.git",
-  "_id": "gateway-addon@git+https://github.com/harshadesai/gateway_addon.git#0810665d4207b53d76bd7cb772c67becdaf17f91",
+  "_from": "git+https://github.com/mozilla-iot/gateway-addon-node.git#v0.12.0",
+  "_id": "gateway-addon@git+https://github.com/mozilla-iot/gateway-addon-node.git#51fece28a1faaa47945aeaf554d5d17543738c1b",
   "_inBundle": false,
   "_integrity": "",
   "_location": "/gateway-addon",
@@ -16,22 +16,23 @@
   },
   "_requested": {
     "type": "git",
-    "raw": "git+https://github.com/harshadesai/gateway_addon.git",
-    "rawSpec": "git+https://github.com/harshadesai/gateway_addon.git",
-    "saveSpec": "git+https://github.com/harshadesai/gateway_addon.git",
-    "fetchSpec": "https://github.com/harshadesai/gateway_addon.git"
+    "raw": "git+https://github.com/mozilla-iot/gateway-addon-node.git#v0.12.0",
+    "rawSpec": "git+https://github.com/mozilla-iot/gateway-addon-node.git#v0.12.0",
+    "saveSpec": "git+https://github.com/mozilla-iot/gateway-addon-node.git#v0.12.0",
+    "fetchSpec": "https://github.com/mozilla-iot/gateway-addon-node.git",
+    "gitCommittish": "v0.12.0"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "git+https://github.com/harshadesai/gateway_addon.git#0810665d4207b53d76bd7cb772c67becdaf17f91",
-  "_spec": "git+https://github.com/harshadesai/gateway_addon.git",
+  "_resolved": "git+https://github.com/mozilla-iot/gateway-addon-node.git#51fece28a1faaa47945aeaf554d5d17543738c1b",
+  "_spec": "git+https://github.com/mozilla-iot/gateway-addon-node.git#v0.12.0",
   "_where": "/home/pi/mozilla-iot/gateway",
   "author": {
     "name": "Mozilla IoT"
   },
   "bugs": {
-    "url": "https://github.com/harshadesai/gateway_addon/issues"
+    "url": "https://github.com/mozilla-iot/gateway-addon-node/issues"
   },
   "dependencies": {
     "ajv": "^6.12.0",
@@ -63,7 +64,7 @@
     "lib/utils.js",
     "schema"
   ],
-  "homepage": "https://github.com/harshadesai/gateway_addon",
+  "homepage": "https://github.com/mozilla-iot/gateway-addon-node",
   "keywords": [
     "mozilla",
     "webthings"
@@ -73,7 +74,7 @@
   "name": "gateway-addon",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harshadesai/gateway_addon.git"
+    "url": "git+https://github.com/mozilla-iot/gateway-addon-node.git"
   },
   "scripts": {
     "lint": "eslint .",
